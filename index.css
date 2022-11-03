@@ -1,0 +1,232 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0pt;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #29353A;
+	z-index: 1;
+	border-bottom:1px solid #FA876B
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+	margin: auto;
+    display: flex; 
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:#29353A; 
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:#29353A;
+    width: 100%;
+    line-height: 50px;
+}
+
+h2 {
+    background: #FA876B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color:#29353A;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color:#29353A;
+    width: 100%;
+}
+
+h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:#29353A;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-satu {
+    background: #FA876B;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-satu:hover {
+    background: #696969;
+	text-decoration: none;
+}
+
+a.tbl-dua {
+    background: #696969;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-dua:hover {
+	background: #FA876B;
+	text-decoration: none;
+}
+
+P {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-tiga {
+    background: #696969;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-tiga:hover {
+	background: #FA876B;
+	text-decoration: none;
+}
+
+.satu {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.pesan {
+	width: 1100px;
+    margin: auto;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color:#29353A;
+}
+
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin :auto;
+    color:#696969;
+} 
+
+.container{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   } 
+
+.skill{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   .mso{width: 90%;background-color: #FA876B}
+   .sp{width: 60%;background-color: #FA876B}
+   .tm{width: 75%;background-color: #FA876B}
+   .tw{width: 80%;background-color: #FA876B}
+
+a.tbl-empat {
+    background: #696969;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
